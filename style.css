@@ -1,5 +1,11 @@
+body {
+    margin: 0px 0px;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
 .first {
     background-color: #1F2937;
+    padding: 0px 80px 60px 80px;
 }
 
 
@@ -7,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 80px;
 }
 
 ul {
@@ -24,6 +31,24 @@ h1 {
     color: #F9FAF8;
 }
 
-.second {
+.heroimg {
     display: flex;
+    gap: 50px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.ksum {
+    height: 300px;
 }
