@@ -1,8 +1,12 @@
+.first {
+    background-color: #1F2937;
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    background-color: #1F2937;
 }
 
 ul {
@@ -12,9 +16,14 @@ ul {
     padding: 0;
     font-size: 18px;
     color: #E5E7EB;
+    gap: 20px;
 }
 
 h1 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.second {
+    display: flex;
 }
