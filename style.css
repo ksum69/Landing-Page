@@ -39,6 +39,10 @@ h1 {
     align-items: center;
 }
 
+.hero {
+    text-align: left;
+}
+
 h2 {
     font-size: 48px;
     font-weight: 800;
