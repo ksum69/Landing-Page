@@ -104,6 +104,8 @@ h3 {
 .third {
     background-color: #E5E7EB;
     padding: 80px 80px 80px 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -114,7 +116,7 @@ h3 {
 }
 
 .quotename {
-    text-align: end;
+    align-self: flex-end;
     font-weight: 700;
     font-size: 24px;
     margin: 0 200px;
