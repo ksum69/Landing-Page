@@ -41,6 +41,9 @@ h1 {
 
 .hero {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
 }
 
 h2 {
